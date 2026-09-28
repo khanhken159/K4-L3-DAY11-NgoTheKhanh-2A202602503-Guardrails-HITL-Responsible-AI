@@ -4,6 +4,13 @@
 > 🎯 **Mục tiêu:** xây **Blue** (phòng thủ), rồi red-team **Red** + **Red Advance**.  
 > ✅ Làm theo **Checkpoint 1 → 5** trong [`CHECKPOINTS.md`](CHECKPOINTS.md) · nộp theo [`SUBMISSION.md`](SUBMISSION.md).
 
+## Thông tin học viên
+
+- **Họ và tên:** Ngô Thế Khanh
+- **MSSV:** 2A202602503
+- **Tên repo nộp:** `K4-L3-DAY11-NgoTheKhanh-2A202602503-Guardrails-HITL-Responsible-AI`
+- **Bonus lựa chọn:** **B1 — Red**, tối đa **+5 điểm**. Artifact hiện có ghi nhận Red leak `4/5`; bonus vẫn phụ thuộc grader replay.
+
 ---
 
 ## Thời lượng

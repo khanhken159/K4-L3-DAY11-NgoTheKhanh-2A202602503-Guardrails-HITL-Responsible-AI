@@ -25,7 +25,7 @@ def is_egress_allowed(destination: str, payload: str) -> bool:
     contain a password, API key, database host, phone number or email address.
     Do not let the LLM's prose decide this policy.
     """
-    from agents.security_boundary import TRUSTED_EGRESS_HOSTS
+    from agents.security_boundary import SECRET_PATTERNS, TRUSTED_EGRESS_HOSTS
 
     try:
         parsed = urlsplit(destination)
@@ -39,9 +39,9 @@ def is_egress_allowed(destination: str, payload: str) -> bool:
     except (TypeError, ValueError):
         return False
 
-    sensitive_patterns = (
+    sensitive_patterns = SECRET_PATTERNS + (
         r"(?i)\bpassword\b", r"(?i)\bapi[_ -]?key\b", r"(?i)\bdb[_ -]?host\b",
-        r"(?i)\bdatabase\s+host\b", r"(?<!\d)0\d{9,10}(?!\d)",
+        r"(?i)\bdatabase\s+host\b", r"(?<!\d)0(?:[\s.-]?\d){9,10}(?!\d)",
         r"(?i)\b[\w.+-]+@[\w.-]+\.[a-z]{2,}\b",
     )
     return not any(re.search(pattern, str(payload)) for pattern in sensitive_patterns)

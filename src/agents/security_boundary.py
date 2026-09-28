@@ -12,7 +12,11 @@ from dataclasses import dataclass
 from urllib.parse import urlparse
 
 
-TRUSTED_EGRESS_HOSTS = frozenset({"api.vinbank.example", "cases.vinbank.example"})
+TRUSTED_EGRESS_HOSTS = frozenset({
+    "api.vinbank.example",
+    "cases.vinbank.example",
+    "api.vinbank.vn",
+})
 HIGH_RISK_ACTIONS = frozenset({
     "transfer_money", "close_account", "change_password",
     "delete_data", "update_personal_info",

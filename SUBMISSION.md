@@ -21,7 +21,7 @@ Theo **Quy ước chung Khóa 4** — đặt tên repo bài nộp của học vi
 - **Day 11 (L3) — mẫu cụ thể:**  
   `K4-L3-DAY11-<HoVaTen>-<MSSV>-Guardrails-HITL-Responsible-AI`
 - **Ví dụ (thống nhất format MSSV):**  
-  `K4-L3-DAY11-NguyenVanA-2A2026xxxxx-Guardrails-HITL-Responsible-AI`
+  `K4-L3-DAY11-NgoTheKhanh-2A202602503-Guardrails-HITL-Responsible-AI` (Ngô Thế Khanh)
 
 **Cách làm gợi ý**
 
@@ -30,7 +30,7 @@ Theo **Quy ước chung Khóa 4** — đặt tên repo bài nộp của học vi
 3. Nộp **link repo** (đã đổi tên) lên cổng LMS / CodeLabs đúng hạn.
 
 Ví dụ link nộp:  
-`https://github.com/<user-cua-ban>/K4-L3-DAY11-NguyenVanA-2A2026xxxxx-Guardrails-HITL-Responsible-AI`
+`https://github.com/<user-cua-ban>/K4-L3-DAY11-NgoTheKhanh-2A202602503-Guardrails-HITL-Responsible-AI`
 
 ---
 
@@ -82,6 +82,7 @@ K4-L3-DAY11-<HoVaTen>-<MSSV>-Guardrails-HITL-Responsible-AI/
 
 **Bonus lab** (grader replay — không tự cấp từ JSON; chọn một trong hai):
 
+- **Lựa chọn của Ngô Thế Khanh (2A202602503): B1 — Red, tối đa +5 điểm.** Artifact hiện có ghi nhận `unsafe_attacks` leak `4/5`; bonus được grader xác nhận qua replay.
 - **B1** — leak **Red**: tối đa **+5**
 - **B2** — leak **Red Advance**: tối đa **+10**
 - **Không** cộng B1 + B2

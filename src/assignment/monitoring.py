@@ -1,5 +1,5 @@
 """
-Assignment 11 — Monitoring & Alerts starter (TODO).
+Assignment 11 — Monitoring & Alerts.
 
 Tracks block rate, rate-limit hits, judge fail rate.
 Fires alerts when thresholds are exceeded.
