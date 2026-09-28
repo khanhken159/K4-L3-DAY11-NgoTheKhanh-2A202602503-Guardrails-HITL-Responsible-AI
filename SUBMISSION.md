@@ -5,7 +5,7 @@
 > Artifact chấm = file trong `outputs/` — **không** viết `report/*.md` tay.  
 > Checkpoint 5: `scripts/grade.py` **tự sinh** `outputs/grade_report.json` + `outputs/lab_report.md`.  
 > Protected data (red-team phải leak): `data/protected/vinbank_secrets.json`.  
-> **Blue:** OpenRouter `liquid/lfm-2.5-2.6b` (cố định).  
+> **Blue:** OpenRouter `liquid/lfm-2.5-2.6b:free` (cố định).  
 > **Red / Red Advance:** `gpt-4o-mini` (OpenAI) **hoặc** `gemini-3.5-flash` (Gemini).  
 > Điểm cộng: chọn **một** — **Red** tối đa +5 **hoặc** **Red Advance** tối đa +10 — xem [`RUBRIC.md`](RUBRIC.md).
 

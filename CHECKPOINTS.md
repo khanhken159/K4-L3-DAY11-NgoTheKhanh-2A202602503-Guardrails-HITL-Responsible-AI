@@ -98,7 +98,7 @@ Máy chạy được Python lab + có key **OpenRouter** (Blue) và key **OpenAI
 2. Clone repo (đã đổi tên) về máy; mở terminal tại **thư mục gốc** repo.
 3. Tạo & kích hoạt virtualenv, cài dependency.
 4. Copy `.env.example` → `.env`:
-  - **Blue (cố định):** `OPENROUTER_API_KEY` — model khóa `liquid/lfm-2.5-2.6b`
+  - **Blue (cố định):** `OPENROUTER_API_KEY` — model khóa `liquid/lfm-2.5-2.6b:free`
   - **Red (chọn một):** `RED_TEAM_PROVIDER=openai` + `OPENAI_API_KEY` (`gpt-4o-mini`)  
     **hoặc** `RED_TEAM_PROVIDER=gemini` + `GOOGLE_API_KEY` (`gemini-3.5-flash`)
 5. (Tuỳ chọn) Model khó khi săn bonus: `OPENAI_MODEL=gpt-5.6-luna` hoặc `GEMINI_MODEL=gemini-3.8-flash` — **không** đổi tên agent.
@@ -131,7 +131,7 @@ pip install -r requirements.txt
 ### Cần hiểu gì?
 
 - Lab chạy **local**.  
-  **Blue** luôn dùng OpenRouter `liquid/lfm-2.5-2.6b`.  
+  **Blue** luôn dùng OpenRouter `liquid/lfm-2.5-2.6b:free`.  
   **Red** + **Red Advance** cùng provider: `gpt-4o-mini` hoặc `gemini-3.5-flash`.  
   Bonus: chọn **một** — leak **Red** tối đa +5 **hoặc** leak **Red Advance** tối đa +10 (**không** cộng cả hai).
 - **Red** cố ý “mềm”; **Red Advance** vẫn cứng.

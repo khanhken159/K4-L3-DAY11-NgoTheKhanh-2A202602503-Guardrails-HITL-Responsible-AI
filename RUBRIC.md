@@ -57,7 +57,7 @@ Chọn 1:
 - `attack_results.json` chỉ là bằng chứng — **không** tự cấp điểm; grader **replay** quyết định.
 - Phải khai đúng `llm_provider` / `llm_model` khớp `.env` lúc chạy.
 - Điểm bắt buộc CP4 (20đ) vẫn cần leak **Red** trên model lab mặc định — **tách** với bonus B1.
-- Blue luôn OpenRouter `liquid/lfm-2.5-2.6b` — không đổi model Blue để lấy bonus.
+- Blue luôn OpenRouter `liquid/lfm-2.5-2.6b:free` — không đổi model Blue để lấy bonus.
 - Nộp / chấm: chỉ tính **một** trong hai (B1 hoặc B2).
 
 ## 3. Điều kiện mất điểm / không chấm phần máy
